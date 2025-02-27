@@ -3,7 +3,7 @@
 ## Overview
 This smart contract implements a KYC (Know Your Customer) compliant ERC20-like token that restricts transfers to verified investors only. The contract integrates an on-chain allowlist mechanism to ensure regulatory compliance for security tokens or other regulated digital assets.
 
-### The Contract was deployed on polygon and address : 0x4ac04Ed71f5EfE5C1bB36246337863B4e404D567
+### The Contract was deployed on polygon : 0x4ac04Ed71f5EfE5C1bB36246337863B4e404D567
 
 ## Features
 - **Restricted Transfers**: Only KYC-verified addresses can send or receive tokens
