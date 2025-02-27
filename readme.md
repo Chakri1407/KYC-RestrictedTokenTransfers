@@ -115,9 +115,9 @@ string memory symbol = "COMP";
 uint8 decimals = 18;
 uint256 initialSupply = 1000000 * 10**18; // 1 million tokens
 address[] memory initialAdmins = new address[](3);
-initialAdmins[0] = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4; // Admin 1
-initialAdmins[1] = 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2; // Admin 2
-initialAdmins[2] = 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db; // Admin 3
+initialAdmins[0] = ; // Admin 1
+initialAdmins[1] = ; // Admin 2
+initialAdmins[2] = ; // Admin 3
 uint256 requiredSignatures = 2; // 2-of-3 multisig
 ```
 
@@ -125,7 +125,7 @@ uint256 requiredSignatures = 2; // 2-of-3 multisig
 1. Admin 1 proposes:
 ```solidity
 // From Admin 1 address
-uint256 operationId = proposeAddToKYC(0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB);
+uint256 operationId = proposeAddToKYC();
 ```
 
 2. Admin 2 signs:
@@ -138,7 +138,7 @@ signOperation(operationId);
 ### Transferring Tokens
 ```solidity
 // From a KYC-verified address to another KYC-verified address
-transfer(0x617F2E2fD72FD9D5503197092aC168c91465E7f2, 1000 * 10**18);
+transfer();
 ```
 
 ## Security Considerations
